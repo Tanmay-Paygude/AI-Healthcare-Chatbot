@@ -1,0 +1,213 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": [
+				"Hi",
+				"Hey",
+				"How are you",
+				"How are you doing",
+				"Is anyone there?",
+				"What's up?",
+				"Hello",
+				"Good day",
+				"What's popping",
+				"Hi there!"
+			],
+			"responses": [
+				"Hey! Welcome to Aura.",
+				"Hi there, I'm doing well! My name's Aura, what can I do for you?",
+				"Hey there, my name's Aura, your mental health friend. How can I help you today?",
+				"Hello! Aura here. How can I assist you today?",
+				"Hi! What can I do for you today?"
+			]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": [
+				"Bye",
+				"See you later!",
+				"Goodbye!",
+				"Thank you",
+				"Thanks, bye",
+				"Catch you later!"
+			],
+			"responses": [
+				"See you later! Take care!",
+				"Have a lovely day! Take care and stay safe!",
+				"Take care of yourself! I'm always here to support you! Feel free to come back at any time!",
+				"Goodbye! Stay positive and take care!",
+				"See you next time! Take care!"
+			]
+		},
+		{
+			"tag": "thanks",
+			"patterns": [
+				"Thanks",
+				"Thank you",
+				"That's helpful",
+				"Thanks a lot!",
+				"Thanks so much",
+				"Thank you very much"
+			],
+			"responses": [
+				"Happy to help!",
+				"Any time!",
+				"My pleasure",
+				"You're welcome!",
+				"Glad to assist!"
+			]
+		},
+		{
+			"tag": "about",
+			"patterns": [
+				"What do you do?",
+				"Who are you?",
+				"What are you here for?",
+				"What can you help me with?",
+				"Is anyone there?",
+				"Are you a real person?",
+				"Tell me about yourself!"
+			],
+			"responses": [
+				"Love that question! My name's Aura, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+				"Hey! I love that question! My name is Aura, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularly when things aren't going so well.",
+				"I'm Aura, your virtual mental health companion. I'm here to listen and provide support, information, and encouragement. Feel free to share anything on your mind!"
+			]
+		},
+		{
+			"tag": "anxiety",
+			"patterns": [
+				"I think I have anxiety",
+				"What is anxiety?",
+				"Tell me about anxiety",
+				"Can I have some information about anxiety?",
+				"How do I support a loved one with anxiety?",
+				"How do I fix my anxiety?",
+				"I'm feeling anxious",
+				"I have anxiety"
+			],
+			"responses": [
+				"I see that you want to learn more about anxiety, and how to support yourself or your loved ones. At the highest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid.",
+				"Anxiety is your body's response to stress and can cause feelings of fear and worry. It's common and can be managed through various techniques like deep breathing, mindfulness, exercise, and talking to someone you trust. Remember, it's okay to seek professional help if needed."
+			]
+		},
+		{
+			"tag": "depression",
+			"patterns": [
+				"I think I have depression",
+				"What is depression?",
+				"Tell me about depression",
+				"Can I have some information about depression?",
+				"How do I support a loved one with depression?",
+				"How do I fix my depression?",
+				"I'm feeling depressed",
+				"I have depression"
+			],
+			"responses": [
+				"I see that you want to learn more about depression, and how to support yourself or your loved ones. At the highest level, depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. Also called major depressive disorder or clinical depression, it affects how you feel, think, and behave and can lead to a variety of emotional and physical problems. You may have trouble doing normal day-to-day activities, and sometimes you may feel as if life isn't worth living. All of us experience sadness and periods of time where things aren't that great. However, the difference in sadness and depression lies in the duration and magnitude of the problem. The best recommended course of treatment is to talk a therapist or psychiatrist who can help you find the best path for you. Everyone is different and what might work for one person might not work for another one. Some natural remedies that you can try include: getting enough sleep, meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid.",
+				"Depression is a mood disorder characterized by persistent sadness and loss of interest. It can affect your thoughts, feelings, and daily activities. It's important to talk to a mental health professional for a proper diagnosis and treatment. Support from friends and family, along with self-care practices, can also help."
+			]
+		},
+		{
+			"tag": "schizophrenia",
+			"patterns": [
+				"I think I have schizophrenia",
+				"What is schizophrenia?",
+				"Tell me about schizophrenia",
+				"Can I have some information about schizophrenia?",
+				"How do I support a loved one with schizophrenia?",
+				"How do I fix my schizophrenia?",
+				"I have schizophrenia"
+			],
+			"responses": [
+				"I see that you want to learn more about schizophrenia, and how to support yourself or your loved ones. At the highest level, schizophrenia is a serious mental disorder in which people interpret reality abnormally. Schizophrenia may result in some combination of hallucinations, delusions, and extremely disordered thinking and behavior that impairs daily functioning, and can be disabling. People with schizophrenia require lifelong treatment. Early treatment may help get symptoms under control before serious complications develop and may help improve the long-term outlook. If you believe you have symptoms of schizophrenia, and/or you have various risk factors that increase the likelihood of schizophrenia, please consult a family doctor and/or psychiatrist for a diagnosis and treatment plan specific for the individual.",
+				"Schizophrenia is a chronic mental health condition that affects how a person thinks, feels, and behaves. It can involve hallucinations, delusions, and disorganized thinking. Treatment usually includes medications and psychotherapy. It's crucial to seek professional help for a proper diagnosis and ongoing management."
+			]
+		},
+		{
+			"tag": "funny",
+			"patterns": [
+				"Tell me a joke!",
+				"Tell me something funny!",
+				"Do you know a joke?"
+			],
+			"responses": [
+				"Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+				"What did the buffalo say when his son left for college? Bison!",
+				"I invented a new word! Plagiarism!"
+			]
+		},
+		{
+			"tag": "stress",
+			"patterns": [
+				"I'm feeling stressed",
+				"How to deal with stress?",
+				"What is stress?",
+				"Tips for managing stress",
+				"How to reduce stress?",
+				"Stress management techniques"
+			],
+			"responses": [
+				"Stress is a natural reaction to challenging situations. It's important to identify the sources of your stress and find ways to manage it. Techniques such as deep breathing exercises, physical activity, mindfulness, and talking to a trusted friend or counselor can help reduce stress. Remember to take breaks and prioritize self-care.",
+				"Feeling stressed is common, but there are many ways to manage it. You can try relaxation techniques like deep breathing, meditation, and yoga. Physical activities such as walking, running, or any form of exercise can also help. Talking about your stress with a friend or counselor can provide relief."
+			]
+		},
+		{
+			"tag": "self_care",
+			"patterns": [
+				"Tell me about self-care",
+				"How to practice self-care?",
+				"Self-care tips",
+				"What is self-care?",
+				"Importance of self-care"
+			],
+			"responses": [
+				"Self-care involves activities and practices that you can engage in on a regular basis to reduce stress and maintain and enhance your health and well-being. This can include physical activities like exercise, mental activities like meditation, and social activities like spending time with loved ones. Remember to make time for yourself and prioritize your well-being.",
+				"Practicing self-care is essential for maintaining your physical, mental, and emotional health. It can include activities like exercise, healthy eating, adequate sleep, relaxation techniques, and spending time on hobbies. Prioritizing self-care helps you manage stress and improve your overall well-being."
+			]
+		},
+		{
+			"tag": "motivation",
+			"patterns": [
+				"I need motivation",
+				"How to stay motivated?",
+				"Tips for motivation",
+				"Motivational quotes",
+				"How to be motivated?"
+			],
+			"responses": [
+				"Staying motivated can be challenging, but setting small, achievable goals can help. Break your tasks into manageable steps and reward yourself for completing them. Surround yourself with positive influences and remind yourself of your accomplishments. Stay focused on your goals and remember why you started.",
+				"To stay motivated, try setting clear and achievable goals. Break tasks into smaller steps and celebrate your progress. Surround yourself with positive and supportive people. Remember to take breaks and practice self-care to maintain your energy and focus."
+			]
+		},
+		{
+			"tag": "mindfulness",
+			"patterns": [
+				"What is mindfulness?",
+				"How to practice mindfulness?",
+				"Mindfulness techniques",
+				"Benefits of mindfulness",
+				"Tell me about mindfulness"
+			],
+			"responses": [
+				"Mindfulness is the practice of being present and fully engaged with the current moment. It involves paying attention to your thoughts, feelings, and surroundings without judgment. Techniques include deep breathing, meditation, and mindful eating. Practicing mindfulness can reduce stress, improve focus, and enhance overall well-being.",
+				"Mindfulness is about being fully present in the moment and aware of your thoughts and feelings without judgment. It can be practiced through activities like meditation, deep breathing, and paying attention to your senses. Mindfulness can help reduce stress, improve focus, and promote emotional well-being."
+			]
+		},
+		{
+			"tag": "relationships",
+			"patterns": [
+				"Relationship advice",
+				"How to improve relationships?",
+				"Tips for a healthy relationship",
+				"Communication in relationships",
+				"How to handle relationship conflicts?"
+			],
+			"responses": [
+				"Healthy relationships require open communication, trust, and mutual respect. It's important to listen actively and express your feelings honestly. Spend quality time together and show appreciation for each other. When conflicts arise, address them calmly and find solutions together.",
+				"To improve relationships, focus on open and honest communication. Show empathy and understanding towards your partner. Spend quality time together and express appreciation. Handle conflicts with patience and a willingness to find common ground."
+			]
+		}
+	]
+}
